@@ -32,9 +32,9 @@ foo@bar:~$ npm start
 2. We can view the website from the url [http://localhost:3000/](http://localhost:3000/)
 
 ## Backend
-- [mockAPI](mockapi.io) is choosen as backend api service provider.
+- [mockAPI](https://mockapi.io) is choosen as backend api service provider.
 - I've created 2 resources (products and users) which contain product and user details.
 ![image](https://user-images.githubusercontent.com/76486044/181096389-3bc9bd40-e707-4ab5-b6c8-b2184b3060f9.png)
-- [mockAPI](mockapi.io) let use to create random data for our resources
+- [mockAPI](https://mockapi.io) let use to create random data for our resources
 
 > **_NOTE:_**  All data choosen are random. Do not use them.
