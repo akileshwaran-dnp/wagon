@@ -1,0 +1,130 @@
+.profile-body {
+    display: flex;
+    padding: 2em 10em 5em 10em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-body h2 {
+    font-size: xx-large;
+    padding-bottom: 1em;
+    padding-top: 10px;
+}
+
+.profile-body .bg-img {
+    position: absolute;
+    bottom: 0;
+    width: 500px;
+    right: 0;
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.form-child {
+    display: flex;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    width: 100%;
+}
+
+.profile-form {
+    font-size: large;
+    font-weight: normal;
+    font-family: "Poppins";
+    /* background-color: #808F85; */
+}
+
+.profile-form input {
+    width: 60%;
+    font-size: large;
+    margin-left: 1em;
+    border-radius: 30px;
+    min-height: 40px;
+    padding: 3px 0 3px 20px;
+    outline: none;
+    border: none;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06)
+}
+
+.profile-form input:focus {
+    outline: none;
+    transform: scale(1.1);
+    transition: 0.6s ease;
+    background-color: #F9F5E3;
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+}
+
+.profile-form input[type=submit] {
+    background-color: #38618C;
+    width: 50%;
+    position: relative;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+.profile-form input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #040F0F;
+    transition: 0.7s ease;
+    color: #D11149;
+}
+
+.profile-form input[type="submit"] {
+    align-self: center;
+    padding: 0;
+    max-width: 20%;
+}
+
+.form-child img {
+    width: 60px;
+    height: 60px;
+    padding-right: 1em;
+
+}
+
+.addr-child {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.addr-child .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.addr-child li {
+    color: #0B4F6C;
+    align-self: center;
+    list-style-type: none;
+}
+
+.addr-child li:hover {
+    cursor: pointer;
+}
+
+.addr-child input {
+    width: 100%;
+    font-size: large;
+    margin-left: 1em;
+    border-radius: 30px;
+    min-height: 40px;
+    padding: 3px 0 3px 20px;
+    margin-bottom: 0.5em;
+    outline: none;
+    border: none;
+}

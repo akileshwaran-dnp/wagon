@@ -1,0 +1,74 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 7em;
+    align-items: center;
+    padding: 2em 4em 0 4em;
+    /* background-color: rgb(239, 232, 171); */
+    /* border-bottom: 1px solid #BC4B51; */
+}
+
+.navbar li {
+    list-style: none;
+    cursor: pointer;
+    color: #6B0F1A;
+    font-family: "Poppins", sans-serif;
+    font-size: large;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    width: 15%;
+    justify-content: space-around;
+}
+
+.profile .material-symbols-outlined{
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 700,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+.navbar .title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    max-height: 100%;
+    /* border: 1px solid black; */
+    padding: 20px;
+    border-radius: 60px;
+    background-color: #f7ecc7;
+}
+
+.logo p {
+    margin: 0;
+    align-self: flex-end;
+    padding-bottom: 5px;
+    font-size: 16px;
+    font-family: "Poppins";
+    position: absolute;
+    left: 250px;
+}
+
+.logo:nth-child() {
+    padding: 0;
+}
+
+.main-body {
+    background-color: rgba(245, 245, 245, 0.525);
+}
